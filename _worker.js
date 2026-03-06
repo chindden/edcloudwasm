@@ -24,7 +24,7 @@ const maxChunkLen = 64 * 1024;        // 64KB
 const flushTime = 20;                 // 20ms
 // ---------------------------------------------------------------------------------
 /**- **警告**: worker最大支持6，超过6没意义*/
-let concurrency = 4;//socket获取并发数
+let concurrency = 6;//socket获取并发数
 // ---------------------------------------------------------------------------------
 //三者的socket获取顺序，全局模式下为这三个的顺序，非全局为：直连>socks>http>nat64>proxyip>finallyProxyHost
 const proxyStrategyOrder = ['socks', 'http', 'nat64'];
@@ -34,8 +34,7 @@ const proxyIpAddrs = {EU: 'ProxyIP.DE.CMLiussss.net', AS: 'ProxyIP.SG.CMLiussss.
 const finallyProxyHost = 'ProxyIP.CMLiussss.net';//兜底proxyip
 // 订阅和面板使用的优选ip地址
 const ipListAll = [
-    'cn.tencentapp.cn','172.64.151.241', '172.64.153.2', '104.18.39.123', '104.18.42.218', '172.64.154.125', '104.18.36.15', '172.64.145.202', '172.64.149.99',
-    '104.18.33.131', '172.64.145.93', '172.64.151.221', '104.18.36.35', '172.64.145.18', '172.64.145.38', '104.18.34.254', '104.18.42.163'
+    'fbi.gov','shopify.com','2606:4700::','cn.tencentapp.cn','saas.sin.fan','download.yunzhongzhuan.com','172.64.151.241', '172.64.153.2', '104.18.39.123', '104.18.42.218', '172.64.154.125', '104.18.36.15', '172.64.145.202', '172.64.149.99'
 ];
 const coloRegions = {
     JP: new Set(['FUK', 'ICN', 'KIX', 'NRT', 'OKA']),
