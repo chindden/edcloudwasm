@@ -47,7 +47,14 @@ const ipListAll = [
     "download.yunzhongzhuan.com#download.yunzhongzhuan.com-JP",
     "cn.tencentapp.cn#cn.tencentapp.cn-JP",
     "saas.sin.fan:2053#saas.sin.fan-JP",
-    "154.21.89.11#154.21.89.11-US","83.229.123.217#83.229.123.217-HK","104.17.141.85#104.17.141.85-US","104.17.191.41#104.17.191.41-US","172.64.153.46#SG","172.64.145.38#SG", "172.64.145.202#SG"];
+    "154.21.89.11#154.21.89.11-US",
+    "83.229.123.217#83.229.123.217-HK",
+    "104.17.141.85#104.17.141.85-US",
+    "104.17.191.41#104.17.191.41-US",
+    "172.64.153.46#SG",
+    "172.64.145.38#SG",
+    "172.64.145.202#SG"
+];
 const coloRegions = {
     JP: new Set(['FUK', 'ICN', 'KIX', 'NRT', 'OKA']),
     EU: new Set([
