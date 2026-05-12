@@ -28,9 +28,9 @@ const flushTime = 20;                 // 20ms
 const ssAeadEncryptCount = 4;
 // ---------------------------------------------------------------------------------
 /**- **警告**: worker最大支持6，超过6没意义*/
-let concurrency = 4;//socket获取并发数
+let concurrency = 6;//socket获取并发数
 // ---------------------------------------------------------------------------------
-const urlParamCacheLimit = 20;//URL参数解析结果缓存条数
+const urlParamCacheLimit = 30;//URL参数解析结果缓存条数
 // ---------------------------------------------------------------------------------
 //五者的socket获取顺序，全局模式下为这五个的顺序，非全局为：直连>socks>http>https>turn>nat64>proxyip>finallyProxyHost
 const proxyStrategyOrder = ['socks', 'http', 'https', 'turn', 'nat64'];
@@ -40,7 +40,7 @@ const dohNatEndpoints = ['https://cloudflare-dns.com/dns-query', 'https://dns.go
 const proxyIpAddrs = {EU: 'ProxyIP.DE.CMLiussss.net', AS: 'ProxyIP.SG.CMLiussss.net', JP: 'ProxyIP.JP.CMLiussss.net', US: 'ProxyIP.US.CMLiussss.net'};//分区域proxyip
 const finallyProxyHost = 'ProxyIP.CMLiussss.net';//兜底proxyip
 // 订阅和面板使用的优选ip地址，可支持ip:port#name格式
-const ipListAll = ["fbi.gov#US", "104.18.39.123", "172.64.145.18", "104.18.42.218", "104.18.33.131", "172.64.145.38", "172.64.145.202", "104.18.42.151"];
+const ipListAll = ["fbi.gov#fbi.gov-US", "box.badd.cc#box.badd.cc-JP", "172.64.145.18", "104.18.42.218", "104.18.33.131", "172.64.145.38", "172.64.145.202", "104.18.42.151"];
 const coloRegions = {
     JP: new Set(['FUK', 'ICN', 'KIX', 'NRT', 'OKA']),
     EU: new Set([
