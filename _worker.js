@@ -43,7 +43,7 @@ const finallyProxyHost = 'ProxyIP.CMLiussss.net';//兜底proxyip
 const ipListAll = [
     "box.badd.cc#box.badd.cc-JP",
     "162.159.44.238:2096#162.159.44.238-JP",
-    "162.159.39.63#162.159.39.63-JP"
+    "162.159.39.63#162.159.39.63-JP",
     "download.yunzhongzhuan.com#download.yunzhongzhuan.com-JP",
     "cn.tencentapp.cn#cn.tencentapp.cn-JP",
     "saas.sin.fan:2053#saas.sin.fan-JP"
