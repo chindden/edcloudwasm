@@ -44,7 +44,7 @@ const ipListAll = [
     "box.badd.cc#box.badd.cc-JP",
     "162.159.44.238:2096#162.159.44.238-JP",
     "download.yunzhongzhuan.com#download.yunzhongzhuan.com-JP",
-    "154.21.89.11:80#154.21.89.11-US",
+    "154.21.89.11#154.21.89.11-US",
     "172.64.145.18", 
     "104.18.42.218", 
     "104.18.33.131", 
