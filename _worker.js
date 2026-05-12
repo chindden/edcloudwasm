@@ -46,7 +46,7 @@ const ipListAll = [
     "162.159.39.63#162.159.39.63-JP",
     "download.yunzhongzhuan.com#download.yunzhongzhuan.com-JP",
     "cn.tencentapp.cn#cn.tencentapp.cn-JP",
-    "saas.sin.fan:2053#saas.sin.fan-JP"
+    "saas.sin.fan:2053#saas.sin.fan-JP",
     "154.21.89.11#154.21.89.11-US",
     "83.229.123.217#83.229.123.217-HK", 
     "104.17.141.85#104.17.141.85-US",
