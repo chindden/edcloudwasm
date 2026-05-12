@@ -40,7 +40,7 @@ const dohNatEndpoints = ['https://cloudflare-dns.com/dns-query', 'https://dns.go
 const proxyIpAddrs = {EU: 'ProxyIP.DE.CMLiussss.net', AS: 'ProxyIP.SG.CMLiussss.net', JP: 'ProxyIP.JP.CMLiussss.net', US: 'ProxyIP.US.CMLiussss.net'};//分区域proxyip
 const finallyProxyHost = 'ProxyIP.CMLiussss.net';//兜底proxyip
 // 订阅和面板使用的优选ip地址，可支持ip:port#name格式
-const ipListAll = ["fbi.gov#fbi.gov-US", "box.badd.cc#box.badd.cc-JP", "172.64.145.18", "104.18.42.218", "104.18.33.131", "172.64.145.38", "172.64.145.202", "104.18.42.151"];
+const ipListAll = ["box.badd.cc#box.badd.cc-JP","162.159.44.238:2096#162.159.44.238-JP","download.yunzhongzhuan.com#download.yunzhongzhuan.com-JP","fbi.gov#fbi.gov-US","172.64.145.18", "104.18.42.218", "104.18.33.131", "172.64.145.38", "172.64.145.202", "104.18.42.151"];
 const coloRegions = {
     JP: new Set(['FUK', 'ICN', 'KIX', 'NRT', 'OKA']),
     EU: new Set([
