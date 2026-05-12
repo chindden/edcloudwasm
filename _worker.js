@@ -43,14 +43,17 @@ const finallyProxyHost = 'ProxyIP.CMLiussss.net';//兜底proxyip
 const ipListAll = [
     "box.badd.cc#box.badd.cc-JP",
     "162.159.44.238:2096#162.159.44.238-JP",
+    "162.159.39.63#162.159.39.63-JP"
     "download.yunzhongzhuan.com#download.yunzhongzhuan.com-JP",
+    "cn.tencentapp.cn#cn.tencentapp.cn-JP",
+    "saas.sin.fan:2053#saas.sin.fan-JP"
     "154.21.89.11#154.21.89.11-US",
-    "172.64.145.18", 
-    "104.18.42.218", 
-    "104.18.33.131", 
-    "172.64.145.38", 
-    "172.64.145.202", 
-    "104.18.42.151"
+    "83.229.123.217#83.229.123.217-HK", 
+    "104.17.141.85#104.17.141.85-US",
+    "104.17.191.41#104.17.191.41-US",
+    "172.64.153.46#SG", 
+    "172.64.145.38#SG", 
+    "172.64.145.202#SG"
 ];
 const coloRegions = {
     JP: new Set(['FUK', 'ICN', 'KIX', 'NRT', 'OKA']),
