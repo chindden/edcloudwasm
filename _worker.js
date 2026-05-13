@@ -1,4 +1,4 @@
-// ❤️❤️ 订阅地址：https://wassm.pages.dev/ef9d104e-ca0e-4202-ba4b-a0afb969c747
+// ❤️❤️ 订阅地址：pages url/uuid
 import {connect} from 'cloudflare:sockets';
 const defaultUuid = ''; // 可在环境变量配置，变量名称为UUID，两个地方都不写为不验证uuid
 const defaultPassword = ''; // 可在环境变量配置，变量名称为PASSWORD，两个地方都不写为不验证密码
