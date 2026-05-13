@@ -42,11 +42,14 @@ const finallyProxyHost = 'ProxyIP.CMLiussss.net';//兜底proxyip
 // 订阅和面板使用的优选ip地址，可支持ip:port#name格式
 const ipListAll = [
     "box.badd.cc#box.badd.cc-JP",
-    "162.159.44.238:2096#162.159.44.238-JP",
-    "162.159.39.63#162.159.39.63-JP",
     "download.yunzhongzhuan.com#download.yunzhongzhuan.com-JP",
     "cn.tencentapp.cn#cn.tencentapp.cn-JP",
     "saas.sin.fan:2053#saas.sin.fan-JP",
+    "162.159.44.238:2096#162.159.44.238-JP",
+    "162.159.39.0#162.159.39.0-JP",
+    "162.159.38.0#162.159.38.0-JP",
+    "108.162.198.0#108.162.198.0-JP",
+    "172.64.52.0#172.64.52.0-JP",
     "154.21.89.11#154.21.89.11-US",
     "83.229.123.217#83.229.123.217-HK",
     "104.17.141.85#104.17.141.85-US",
